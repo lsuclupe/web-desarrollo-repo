@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Before;
  * Sample AspectJ annotation-style aspect that saves
  * every owner name requested to the clinic.
  *
- * @author Rod Johnson
+ * @author Rod Johnson 
  * @author Juergen Hoeller
  * @since 2.0
  */
