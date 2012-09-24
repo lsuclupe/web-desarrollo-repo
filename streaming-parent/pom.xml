@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>streaming-group</groupId>
+  <artifactId>streaming-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>streaming-parent</name>
+  <description>Parent del proyecto streaming</description>
+  <properties>
+		<spring.version>3.1.0.RELEASE</spring.version>
+		<slf4j.version>1.5.6</slf4j.version>
+		<ibatis.version>2.3.4.726</ibatis.version>
+  </properties>	
+  <modules>
+  	<module>../streaming</module>
+  	<module>../streaming-bean</module>
+  	<module>../streaming-model</module>
+  	<module>../streaming-service</module>
+  	<module>../streaming-web</module>
+  	<module>../streaming-util</module>
+  </modules>
+</project>
